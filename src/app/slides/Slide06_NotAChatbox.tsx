@@ -58,18 +58,18 @@ export default function Slide06() {
         style={{
           fontFamily: '-apple-system, BlinkMacSystemFont, "Inter Tight", "SF Pro Display", "Segoe UI", system-ui, sans-serif',
           fontWeight: 700,
-          fontSize: 60,
-          lineHeight: 1.02,
+          fontSize: 48,
+          lineHeight: 1.04,
           color: "#111",
-          margin: "12px 0 36px 0",
+          margin: "12px 0 28px 0",
           letterSpacing: "-0.01em",
-          maxWidth: 980,
+          whiteSpace: "nowrap",
         }}
       >
         Junior isn&apos;t a chatbox. Junior does the task.
       </h2>
 
-      <div style={{ display: "flex", gap: 24, height: 470 }}>
+      <div style={{ display: "flex", gap: 24, height: 430 }}>
         {/* LEFT: chatbox */}
         <div
           style={{
@@ -131,7 +131,7 @@ export default function Slide06() {
             </div>
             <div
               style={{
-                marginTop: "auto",
+                marginTop: 12,
                 padding: "10px 12px",
                 border: `1px dashed ${MUTE}`,
                 borderRadius: 8,
@@ -235,7 +235,7 @@ export default function Slide06() {
 
             <div
               style={{
-                marginTop: "auto",
+                marginTop: 12,
                 padding: "10px 12px",
                 background: "#fff",
                 border: `1px solid ${OLIVE}`,
