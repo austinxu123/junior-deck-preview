@@ -266,9 +266,9 @@ export default function Slide02() {
             <div
               style={{
                 position: "absolute",
-                left: `${(TEAM_X_AFTER / PANEL_W) * 100}%`,
+                right: 16,
                 top: "50%",
-                transform: "translate(-50%, -50%)",
+                transform: "translateY(-50%)",
               }}
             >
               <TeamPill tone="olive" />
