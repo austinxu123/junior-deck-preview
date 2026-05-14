@@ -22,7 +22,7 @@ export default function Slide10() {
       {/* top: brand mark */}
       <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/junior.svg" alt="Junior" style={{ height: 28, width: "auto" }} />
+        <img src="./junior.svg" alt="Junior" style={{ height: 28, width: "auto" }} />
         <span
           style={{
             fontSize: 12,

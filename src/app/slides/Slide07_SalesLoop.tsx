@@ -208,7 +208,7 @@ export default function Slide07() {
               ✉️ Draft + calendar invite · 1-click to send
             </div>
           </Msg>
-          <Msg author="Maya" time="10:51 AM" avatar={<HumanAvatar src="/avatars/maya.jpeg" />}>
+          <Msg author="Maya" time="10:51 AM" avatar={<HumanAvatar src="./avatars/maya.jpeg" />}>
             perfect. send it + push next-step to thursday 2pm.
           </Msg>
           <Msg author="Junior" isAI time="10:51 AM" avatar={<JuniorBadge />}>
